@@ -45,10 +45,28 @@ module.exports = function (grunt) {
                 ],
                 expand: true
             }
+        },
+        // Create zip file.
+        compress: {
+            main: {
+                options: {
+                    archive: 'woocommerce-darwin-pricing-integration.zip'
+                },
+                files: [
+                    {src: ['*', '!*.zip'], filter: 'isFile'},
+                    {src: ['includes/*'], filter: 'isFile'},
+                    {src: ['languages/*'], filter: 'isFile'},
+                ]
+            }
         }
     });
 
     // Load NPM tasks to be used here
     grunt.loadNpmTasks('grunt-wp-i18n');
     grunt.loadNpmTasks('grunt-checktextdomain');
+    grunt.loadNpmTasks('grunt-contrib-compress');
+
+    grunt.registerTask('build', 'Build WordPress plugin.', function () {
+        grunt.task.run('makepot', 'checktextdomain', 'compress');
+    });
 };

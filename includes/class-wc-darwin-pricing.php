@@ -64,7 +64,7 @@ class WC_Darwin_Pricing extends WC_Integration {
         global $wp;
         $tracking = false;
 
-        if (is_admin() || current_user_can('manage_options') || !$this->dp_id) {
+        if (!$this->dp_id) {
             return;
         }
 

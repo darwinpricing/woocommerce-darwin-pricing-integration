@@ -4,7 +4,7 @@
  * Plugin URI: http://wordpress.org/plugins/woocommerce-darwin-pricing-integration/
  * Description: Allows Darwin Pricing to add a geo-targeted coupon box and tracking code into WooCommerce store pages.
  * Author: Darwin Pricing
- * Author URI: http://darwinpricing.com
+ * Author URI: https://www.darwinpricing.com
  * Version: 1.0.0
  * License: GPLv2 or later
  * Text Domain: woocommerce-darwin-pricing-integration

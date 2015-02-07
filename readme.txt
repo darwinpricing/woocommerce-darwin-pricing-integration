@@ -1,4 +1,4 @@
-=== WooCommerce Google Analytics Integration ===
+=== WooCommerce Darwin Pricing Integration ===
 Contributors: sebastien-fauvel
 Tags: woocommerce, darwin pricing, dynamic pricing, price optimization
 Requires at least: 3.8

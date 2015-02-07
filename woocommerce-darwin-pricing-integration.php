@@ -94,7 +94,7 @@ class WC_Darwin_Pricing_Integration {
 	 *
 	 * @param  array $integrations WooCommerce integrations.
 	 *
-	 * @return array               Google Analytics integration.
+	 * @return array               Darwin Pricing integration.
 	 */
 	public function add_integration( $integrations ) {
 		$integrations[] = 'WC_Darwin_Pricing';

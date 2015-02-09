@@ -13,7 +13,7 @@ Provides the integration between Darwin Pricing and WooCommerce.
 
 == Description ==
 
-This plugin provides the integration between [Darwin Pricing](https://www.darwinpricing.com/) and the [WooCommerce](http://www.woothemes.com/woocommerce/) plugin (requires WooCommerce 2.1). It allows Darwin Pricing to add a geo-targeted coupon box and its tracking code into your WooCommerce store.
+This plugin provides the integration between [Darwin Pricing](https://www.darwinpricing.com/) and the [WooCommerce](http://www.woothemes.com/woocommerce/) plugin. It allows Darwin Pricing to add a geo-targeted coupon box and its tracking code into your WooCommerce store.
 
 Contributions are welcome via the [GitHub repository](https://github.com/sebastien-fauvel/woocommerce-darwin-pricing-integration).
 
@@ -28,9 +28,10 @@ Contributions are welcome via the [GitHub repository](https://github.com/sebasti
 
 == Frequently Asked Questions ==
 
-= Where can I find the setting for this plugin? =
+= Where can I find the settings for this plugin? =
 
-This plugin will add the settings to the Integration tab, to be found in the WooCommerce > Settings menu.
+This plugin will add the settings for the Darwin Pricing integration to the Integration tab, to be found via the menu WooCommerce > Settings in the WordPress admin.
+The geo-targeting of your coupon boxes can be configured in the [Darwin Pricing admin](https://www.darwinpricing.com/).
 
 == Changelog ==
 

@@ -6,7 +6,7 @@
  * Author: Darwin Pricing
  * Author URI: https://www.darwinpricing.com
  * Version: 1.0.0
- * License: GPLv2 or later
+ * License: GPLv2
  * Text Domain: woocommerce-darwin-pricing-integration
  * Domain Path: languages/
  */

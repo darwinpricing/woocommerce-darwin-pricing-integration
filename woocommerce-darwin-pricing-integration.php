@@ -86,7 +86,7 @@ class WC_Darwin_Pricing_Integration {
 	 * @return string
 	 */
 	public function woocommerce_missing_notice() {
-		echo '<div class="error"><p>' . sprintf( __( 'WooCommerce Darwin Pricing depends on the last version of %s to work!', 'woocommerce-darwin-pricing-integration' ), '<a href="http://www.woothemes.com/woocommerce/" target="_blank">' . __( 'WooCommerce', 'woocommerce-darwin-pricing-integration' ) . '</a>' ) . '</p></div>';
+		echo '<div class="error"><p>' . sprintf( __( 'The WooCommerce Darwin Pricing Integration depends on the last version of %s to work!', 'woocommerce-darwin-pricing-integration' ), '<a href="http://www.woothemes.com/woocommerce/" target="_blank">' . __( 'WooCommerce', 'woocommerce-darwin-pricing-integration' ) . '</a>' ) . '</p></div>';
 	}
 
 	/**

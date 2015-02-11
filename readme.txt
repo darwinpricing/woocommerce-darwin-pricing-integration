@@ -1,6 +1,6 @@
 === WooCommerce Darwin Pricing Integration ===
 Contributors: sebastien-fauvel
-Tags: woocommerce, darwin pricing, dynamic pricing, price optimization
+Tags: woocommerce, darwin pricing, dynamic pricing, pricing optimization, price optimization, coupon box
 Requires at least: 3.8
 Tested up to: 4.1
 Stable tag: 1.0.0

@@ -103,13 +103,13 @@ Don't leave anything to chance:
 3. Activate the plugin in the WordPress admin.
 4. Enter the Darwin Pricing ID of your website via the menu WooCommerce > Settings > Integration in the WordPress admin.
 5. Create coupon codes via the menu WooCommerce > Coupons in the WordPress admin.
-6. Setup geo-targeted coupon boxes in the Darwin Pricing admin.
+6. Setup geo-targeted coupon boxes in the [Darwin Pricing admin](https://www.darwinpricing.com/).
 
 == Frequently Asked Questions ==
 
 = How can I get a Darwin Pricing account? =
 
-You can create a free account by registering your store on [Darwin Pricing](https://www.darwinpricing.com/).
+You can [create a free account](https://admin.darwinpricing.com/sign-up) by registering your store on Darwin Pricing.
 
 = Where can I find the settings for this plugin? =
 
@@ -119,8 +119,8 @@ This plugin will add the settings for the Darwin Pricing integration to the Inte
 
 Once you have created a coupon code via the menu WooCommerce > Coupons in the WordPress admin,
 you can import it into [Darwin Pricing](https://www.darwinpricing.com/) by entering the text of the coupon box,
-e.g. “10% off your order! Use the discount code XXXXX on checkout”.
-Then you can either define the geo-targeting of your coupon boxes manually,
+e.g. “<h1>10% off your order!</h1> Use the discount code <b>XXXXX</b> on checkout”.
+From there, you can either define the geo-targeting of your coupon boxes manually,
 or let us optimize it in real-time for you.
 
 == Changelog ==

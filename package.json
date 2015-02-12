@@ -1,7 +1,7 @@
 {
     "name": "woocommerce-darwin-pricing-integration",
     "title": "WooCommerce Darwin Pricing Integration",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage": "https://wordpress.org/plugins/woocommerce-darwin-pricing-integration/",
     "repository": {
         "type": "git",

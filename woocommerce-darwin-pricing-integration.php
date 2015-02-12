@@ -5,7 +5,7 @@
  * Description: Allows Darwin Pricing to add a geo-targeted coupon box and its tracking code into your WooCommerce store.
  * Author: Darwin Pricing
  * Author URI: https://www.darwinpricing.com
- * Version: 1.0.0
+ * Version: 1.0.1
  * License: GPLv2
  * Text Domain: woocommerce-darwin-pricing-integration
  * Domain Path: languages/
@@ -27,7 +27,7 @@ class WC_Darwin_Pricing_Integration {
 	 *
 	 * @var string
 	 */
-	const VERSION = '1.0.0';
+	const VERSION = '1.0.1';
 
 	/**
 	 * Instance of this class.

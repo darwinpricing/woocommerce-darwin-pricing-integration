@@ -30,6 +30,7 @@ class WC_Darwin_Pricing extends WC_Integration {
 
         // Define user set variables
         $this->dp_id = $this->get_option('dp_id');
+        $this->dp_host = $this->get_option('dp_host');
 
         // Actions
         add_action('woocommerce_update_options_integration_darwin_pricing', array($this, 'process_admin_options'));
@@ -46,8 +47,14 @@ class WC_Darwin_Pricing extends WC_Integration {
     public function init_form_fields() {
 
         $this->form_fields = array(
+            'dp_host' => array(
+                'title' => __('API Server', 'woocommerce-darwin-pricing-integration'),
+                'description' => __('Log into your Darwin Pricing account to find the URL of your API server, e.g. <code>https://api.darwinpricing.com</code>', 'woocommerce-darwin-pricing-integration'),
+                'type' => 'text',
+                'default' => 'https://api.darwinpricing.com'
+            ),
             'dp_id' => array(
-                'title' => __('Darwin Pricing ID', 'woocommerce-darwin-pricing-integration'),
+                'title' => __('Site ID', 'woocommerce-darwin-pricing-integration'),
                 'description' => __('Log into your Darwin Pricing account to find the ID of your website, e.g. <code>123</code>', 'woocommerce-darwin-pricing-integration'),
                 'type' => 'text',
                 'default' => ''
@@ -64,7 +71,7 @@ class WC_Darwin_Pricing extends WC_Integration {
         global $wp;
         $tracking = false;
 
-        if (!$this->dp_id) {
+        if ('' == $this->dp_id || '' == $this->dp_host) {
             return;
         }
 
@@ -89,7 +96,7 @@ class WC_Darwin_Pricing extends WC_Integration {
      * @return string
      */
     protected function get_widget_code() {
-        $url = 'https://api.darwinpricing.com/widget?site-id=' . $this->dp_id;
+        $url = $this->dp_host . '/widget?site-id=' . $this->dp_id;
         return '<script src="' . esc_url($url) . '" type="text/javascript"></script>';
     }
 
@@ -108,7 +115,7 @@ class WC_Darwin_Pricing extends WC_Integration {
         // Mark the order as tracked
         update_post_meta($order_id, '_dp_tracked', 1);
 
-        $url = 'https://api.darwinpricing.com/add-payment?site-id=' . $this->dp_id . '&profit=' . $currency . $value;
+        $url = $this->dp_host . '/add-payment?site-id=' . $this->dp_id . '&profit=' . $currency . $value;
         return '<script src="' . esc_url($url) . '" type="text/javascript"></script>';
     }
 

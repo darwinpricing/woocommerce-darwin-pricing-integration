@@ -2,10 +2,10 @@
 # This file is distributed under the GPLv2.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce Darwin Pricing Integration 1.0.0\n"
+"Project-Id-Version: WooCommerce Darwin Pricing Integration 1.1.0\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/woocommerce-darwin-pricing-integration\n"
-"POT-Creation-Date: 2015-02-12 10:38:47+00:00\n"
+"POT-Creation-Date: 2015-02-12 14:15:31+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,11 +25,21 @@ msgid ""
 "websites."
 msgstr ""
 
-#: includes/class-wc-darwin-pricing.php:50
-msgid "Darwin Pricing ID"
+#: includes/class-wc-darwin-pricing.php:51
+msgid "API Server"
 msgstr ""
 
-#: includes/class-wc-darwin-pricing.php:51
+#: includes/class-wc-darwin-pricing.php:52
+msgid ""
+"Log into your Darwin Pricing account to find the URL of your API server, "
+"e.g. <code>https://api.darwinpricing.com</code>"
+msgstr ""
+
+#: includes/class-wc-darwin-pricing.php:57
+msgid "Site ID"
+msgstr ""
+
+#: includes/class-wc-darwin-pricing.php:58
 msgid ""
 "Log into your Darwin Pricing account to find the ID of your website, e.g. "
 "<code>123</code>"

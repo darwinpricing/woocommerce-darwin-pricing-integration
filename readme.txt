@@ -134,7 +134,7 @@ or let us optimize it in real-time for you.
 
 = 1.0.1 - 12/02/2015 =
 
-* Improved error massages
+* Improved error messages
 
 = 1.0.0 - 07/02/2015 =
 

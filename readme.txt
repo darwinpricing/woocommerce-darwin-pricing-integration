@@ -123,6 +123,13 @@ e.g. “<h1>10% off your order!</h1> Use the discount code <b>XXXXX</b> on check
 From there, you can either define the geo-targeting of your coupon boxes manually,
 or let us optimize it in real-time for you.
 
+== Screenshots ==
+
+1. Launch geo-targeted sales campaigns with a single click
+2. Monitor the performance of your sales campaigns at a glance
+3. Customize the coupon box at will to fit your corporate design
+4. Let us manage your campaigns to boost your profits quickly
+
 == Changelog ==
 
 = 1.0.0 - 07/02/2015 =

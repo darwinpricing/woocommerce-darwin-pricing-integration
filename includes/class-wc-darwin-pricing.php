@@ -97,7 +97,17 @@ class WC_Darwin_Pricing extends WC_Integration {
      */
     protected function get_widget_code() {
         $url = $this->dp_host . '/widget?site-id=' . $this->dp_id;
-        return '<script src="' . esc_url($url) . '" type="text/javascript"></script>';
+        return <<<EOD
+<script>
+(function(s, n) {
+    s = document.createElement('script');
+    s.async = 1;
+    s.src = '{$url}';
+    n = document.getElementsByTagName('script')[0];
+    n.parentNode.insertBefore(s, n);
+})();
+</script>
+EOD;
     }
 
     /**

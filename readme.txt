@@ -119,7 +119,7 @@ This plugin will add the settings for the Darwin Pricing integration to the Inte
 
 Once you have created a coupon code via the menu WooCommerce > Coupons in the WordPress admin,
 you can import it into [Darwin Pricing](https://www.darwinpricing.com/) by entering the text of the coupon box,
-e.g. “<h1>10% off your order!</h1> Use the discount code <b>XXXXX</b> on checkout”.
+e.g. “10% off your order! Use the discount code XXXXX on checkout”.
 From there, you can either define the geo-targeting of your coupon boxes manually,
 or let us optimize it in real-time for you.
 

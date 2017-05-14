@@ -53,9 +53,9 @@ module.exports = function (grunt) {
                     archive: 'woocommerce-darwin-pricing-integration.zip'
                 },
                 files: [
-                    {src: ['*', '!*.zip'], filter: 'isFile'},
+                    {src: ['*', '!*.zip', '!Gruntfile.js'], filter: 'isFile'},
                     {src: ['includes/*'], filter: 'isFile'},
-                    {src: ['languages/*'], filter: 'isFile'},
+                    {src: ['languages/*'], filter: 'isFile'}
                 ]
             }
         }

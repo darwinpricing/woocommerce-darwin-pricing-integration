@@ -3,10 +3,12 @@ Contributors: sebastien-fauvel
 Donate link: https://www.darwinpricing.com/pricing
 Tags: analytics, coupon, darwin pricing, discount, dynamic pricing, price optimization, pricing optimization, promotion, widget, woocommerce
 Requires at least: 3.8
-Tested up to: 4.1
-Stable tag: 1.2.0
+Tested up to: 4.7.4
+Stable tag: 1.3.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+WC requires at least: 3.0.0
+WC tested up to: 3.0.6
 
 Launch sales campaigns in the physical locations you're targeting. Optimize your geo-targeting in real-time to boost your profits!
 
@@ -131,6 +133,10 @@ or let us optimize it in real-time for you.
 4. Let us manage your campaigns to boost your profits quickly
 
 == Changelog ==
+
+= 1.3.0 - 13/05/2017 =
+
+* Deduced COGS and taxes from profits
 
 = 1.2.0 - 14/03/2015 =
 

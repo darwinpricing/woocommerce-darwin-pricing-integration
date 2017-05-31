@@ -4,7 +4,7 @@ Donate link: https://www.darwinpricing.com/pricing
 Tags: analytics, coupon, darwin pricing, discount, dynamic pricing, price optimization, pricing optimization, promotion, widget, woocommerce
 Requires at least: 3.8
 Tested up to: 4.8.0
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 WC requires at least: 3.0.0

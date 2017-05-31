@@ -6,7 +6,7 @@
  * Description: Adds a geo-targeted coupon box with exit intent technology into your WooCommerce store. Tracks your profit to optimize your geo-targeting in real-time.
  * Author: Darwin Pricing
  * Author URI: https://www.darwinpricing.com
- * Version: 1.3.0
+ * Version: 1.3.1
  * License: GPLv2
  * Text Domain: woocommerce-darwin-pricing-integration
  * Domain Path: languages/
@@ -26,7 +26,7 @@ class WC_Darwin_Pricing_Integration
      *
      * @var string
      */
-    const VERSION = '1.3.0';
+    const VERSION = '1.3.1';
 
     /**
      * Instance of this class.
